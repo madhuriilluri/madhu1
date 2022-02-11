@@ -1,0 +1,21 @@
+sno=int(input('enter sno') 
+sname=input('enter name')  
+sgroup=(input('enter group') 
+english=int(input('enter english marks') 
+telugu=int(input('enter telugu marks') 
+hindi=int(input('enter hindi marks') 
+maths=int(input('enter maths marks')
+physics=int(input('enter physics marks') 
+computer=int(input('enter computer marks') 
+total=english+telugu+hindi+maths+physics+computer 
+avg=total/6 
+if avg>=90: 
+    print("O grade") 
+elif avg>=80: 
+    print("A grade") 
+elif avg>=70: 
+    print("C grade") 
+elif avg>=40: 
+    print("pass") 
+else: 
+    print("fail")
